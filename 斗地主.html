@@ -1,0 +1,17 @@
+
+<html>
+  <head>
+    <title>$Title$</title>
+  </head>
+  <body>
+    <h1>测试入参为POJO</h1>
+    <form action="${pageContext.request.contextPath}/testPOJO" method="post">
+      <!--表单项中的name属性值要与POJO类中的属性名保持一致-->
+      id号：<input type="text" name="id"><br>
+      姓名：<input type="text" name="lastName"><br>
+      胜负关系：<input type="text" name="email"><br>
+	  账户余额：<input type="text" name="salary"><br>
+      <input type="submit">
+    </form>
+  </body>
+</html>
